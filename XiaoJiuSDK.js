@@ -8,6 +8,6 @@
     const script = document.createElement('script')
     script.type = 'module'
     script.id = 'infofe-kdocs-sdk'
-    script.src = `//${scriptDomain}/xiao-jiu-sdk/infofe-kdocs-sdk.js`
+    script.src = `//${scriptDomain}/xiao-jiu-sdk/infofe-kdocs-sdk.js?v=${new Date().getTime()}`
     document.body.appendChild(script)
 })()
