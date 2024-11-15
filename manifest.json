@@ -1,8 +1,20 @@
 {
-  "src/main.tsx": {
+  "src/XiaoJiuSDK.ts": {
+    "file": "XiaoJiuSDK.cjs",
+    "name": "XiaoJiuSDK",
+    "src": "src/XiaoJiuSDK.ts",
+    "isEntry": true
+  },
+  "src/infofe-kdocs-sdk.tsx": {
     "file": "infofe-kdocs-sdk.cjs",
-    "name": "main",
-    "src": "src/main.tsx",
+    "name": "infofe-kdocs-sdk",
+    "src": "src/infofe-kdocs-sdk.tsx",
+    "isEntry": true
+  },
+  "src/react-native-sdk.ts": {
+    "file": "react-native-sdk.cjs",
+    "name": "react-native-sdk",
+    "src": "src/react-native-sdk.ts",
     "isEntry": true
   },
   "style.css": {
